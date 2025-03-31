@@ -19,7 +19,7 @@
     <downloadUrl>https://raw.githubusercontent.com/dbo9h/FPCLA/main/FilamentProfitCalc.zip</downloadUrl>
     
     <!-- Filename to save the download as (MUST match your actual file's name) -->
-    <fileName>Profi.zip</fileName>
+    <fileName>FilamentProfitCalc.zip</fileName>
     
     <!-- Optional: Command-line arguments for installer files (can be empty) -->
     <launchArgs></launchArgs>
