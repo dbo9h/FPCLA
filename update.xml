@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <updateInfo>
-    <version>1.0.1</version>
+    <!-- Basic version information -->
+    <version>1.1.0</version>
     <releaseDate>2025-03-31</releaseDate>
+    
+    <!-- Release notes (supports HTML formatting) -->
     <description>
         <![CDATA[
-        Initial release of FilamentProfitCalc:
-        - Calculate printing costs accurately
-        - Track profit margins
-        - Manage your product catalog
-        - Support for multiple currencies
+        This update includes:
+        • Automatic update system with in-app downloads
+        • Improved performance when loading large datasets
+        • Fixed currency conversion issues
+        • Added support for additional file formats
+        • Better error handling
         ]]>
     </description>
-    <downloadUrl>YOUR_DOWNLOAD_URL_HERE</downloadUrl>
-    <minimumRequiredVersion>1.0.1</minimumRequiredVersion>
+    
+    <downloadUrl>https://raw.githubusercontent.com/dbo9h/FPCLA/main/Profi.zip</downloadUrl>
+    
+    <!-- Filename to save the download as (MUST match your actual file's name) -->
+    <fileName>Profi.zip</fileName>
+    
+    <!-- Optional: Command-line arguments for installer files (can be empty) -->
+    <launchArgs></launchArgs>
+    
+    <!-- Whether the update requires administrator privileges -->
+    <requiresAdmin>false</requiresAdmin>
+    
+    <!-- Whether the update is mandatory (if true, users can't skip) -->
+    <mandatory>false</mandatory>
+    
+    <!-- Minimum required version - users below this must update -->
+    <minimumRequiredVersion>1.0.0</minimumRequiredVersion>
 </updateInfo>
