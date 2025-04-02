@@ -25,11 +25,11 @@
     <launchArgs></launchArgs>
     
     <!-- Whether the update requires administrator privileges -->
-    <requiresAdmin>false</requiresAdmin>
+    <requiresAdmin>true</requiresAdmin>
     
     <!-- Whether the update is mandatory (if true, users can't skip) -->
-    <mandatory>false</mandatory>
+    <mandatory>true</mandatory>
     
     <!-- Minimum required version - users below this must update -->
-    <minimumRequiredVersion>1.0.0</minimumRequiredVersion>
+    <minimumRequiredVersion>1.1.0</minimumRequiredVersion>
 </updateInfo>
